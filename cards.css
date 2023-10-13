@@ -1,0 +1,42 @@
+.cards{
+    background-color: rgb(244, 249, 237);
+    height: max-content; 
+    padding: 25px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.card
+{
+    margin: 8px;
+    height: 37.5vh;
+    width: 37.5vh; 
+    border:  solid greenyellow;
+    box-shadow: 1px 1px 10px aquamarine;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+
+}
+.card img
+{
+    margin-left: 10px;
+    width: 12vh;
+}
+.card_mode
+{
+    /* background-color: rgb(22, 21, 21); */
+    background-color: rgb(28, 29, 26);
+    color: rgb(99, 99, 88);
+}
+.card:hover
+{
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: rgb(35, 255, 171);
+}
