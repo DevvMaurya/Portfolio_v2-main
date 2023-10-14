@@ -1,0 +1,121 @@
+fieldset
+{
+    margin: 0px 8px 8px 8px;
+
+}
+label,h3
+{
+    margin-left: 20px;
+}
+.conet
+{
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+.social
+{
+    margin: 12px;
+    transition: .6s;
+}
+.social:hover
+{
+    content: 'devvmaurya@gmail.com';
+    transform: translateY(-50px);
+}
+#mail:hover::after
+{
+    position: absolute;
+    color: rgb(19, 18, 18);
+    top: 80%;
+    left: -150%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 25PX;
+    content: 'devvmaurya@gmail.com';
+    height: 40px;
+    width: 200px;
+    background-color:yellowgreen;
+    font-size: 18px;
+    -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    cursor: pointer;
+}
+#github:hover::after
+{
+    position: absolute;
+    color: black;
+    top: 80%;
+    left: -150%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 25PX;
+    content: 'DevvMaurya';
+    height: 40px;
+    width: 200px;
+    background-color:yellowgreen;
+    font-size: 18px;
+    -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    cursor: pointer;
+}
+#insta:hover::after
+{
+    position: absolute;
+    color: black;
+    top: 80%;
+    left: -150%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 25PX;
+    content: 'devv_Maurya';
+    height: 40px;
+    width: 200px;
+    background-color:yellowgreen;
+    font-size: 18px;
+    -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    cursor: pointer;
+}
+#in:hover::after
+{
+    position: absolute;
+    color: black;
+    top: 80%;
+    left: -150%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 25PX;
+    content: 'Devv Maurya';
+    height: 40px;
+    width: 200px;
+    background-color:yellowgreen;
+    font-size: 18px;
+    -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    cursor: pointer;
+}
+#call:hover::after
+{
+    position: absolute;
+    color: black;
+    top: 80%;
+    left: -150%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 25PX;
+    content: '🇮🇳 +91 8200270283';
+    height: 40px;
+    width: 200px;
+    background-color:yellowgreen;
+    font-size: 18px;
+    -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    
+    cursor: pointer;
+}

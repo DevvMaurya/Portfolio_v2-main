@@ -3,12 +3,12 @@ let row_left = document.getElementById(`row_left${id[0]}`)
 let row_right = document.getElementById(`row_right${id[0]}`)
 document.addEventListener('scroll',()=>
 {
-    if(window.scrollY >= 1450 && window.scrollY < 1560)
+    if(window.scrollY >= 1450 && window.scrollY < 1590)
     {
         document.getElementById(`row_left${id[0]}`).classList.add(`row_scroll`)
         document.getElementById(`row_right${id[0]}`).classList.add(`row_scroll`)
     }
-    else if(window.scrollY >= 1560 && window.scrollY < 1690)
+    else if(window.scrollY >= 1590 && window.scrollY < 1690)
     {
         document.getElementById(`row_left${id[1]}`).classList.add(`row_scroll`)
         document.getElementById(`row_right${id[1]}`).classList.add(`row_scroll`)
