@@ -32,6 +32,7 @@ about.addEventListener('click',()=>
     {
         // location.href("https://github.com/DevvMaurya/")
         // window.open("https://github.com/DevvMaurya/")
+        window.scrollTo(0,1500);
         setTimeout(()=>{},2000);
         about.classList.remove('animation_for_menu')
     });

@@ -1,0 +1,52 @@
+.about_s_rows
+{
+    display: flex;
+    flex-direction: column;
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    height: 31.7vh;
+    margin: 8px 0px;
+}
+.row_right
+{
+    opacity: 0.1;
+    position: relative;
+    width: 30%;
+    background-color: red;
+    transition: .8s;
+    padding: 0em 4.5em;
+
+}
+.row_left
+{
+    opacity: 0.1;
+    position: relative;
+    width: 30%;
+    background-color: orange;
+    transition: .8s;
+    padding: 0em 4.5em;
+
+}
+.row_left span,.row_right span
+{
+    position: relative;
+    top: 30%;
+    line-height: 1.2em;
+}
+.row img
+{
+    background-color: rgb(58, 129, 192);
+    height: 31.7vh;
+    width:auto;
+    position: relative;
+    left: 25%;
+}
+.row_scroll
+{
+    opacity: 1;
+    width: 50%;
+}
+
