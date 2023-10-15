@@ -1,7 +1,8 @@
 let mail = document.getElementById('mail')
 mail.addEventListener('click',()=>
 {
-    location.assign('https://gmail.com');
+    navigator.clipboard.writeText("devvmaurya@gmail.com")
+    alert('mail ID Copied to clip board.!')
 })
 
 let github = document.getElementById('github')
@@ -20,4 +21,11 @@ let insta = document.getElementById('insta')
 insta.addEventListener('click',()=>
 {
     location.assign('https://www.instagram.com/devv_maurya/?next=%2F');
+})
+
+let call = document.getElementById('call')
+call.addEventListener('click',()=>
+{
+    navigator.clipboard.writeText("+91 8200270283")
+    alert('Mobile nummber Copied to clip board.!')
 })

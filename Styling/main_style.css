@@ -109,4 +109,7 @@ height: 8vh;
     word-spacing: 1.2px;
     font-family: system-ui, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+#quot
+{
+    font-size: 20px;
+}
