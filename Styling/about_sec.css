@@ -17,6 +17,7 @@
     width: 30%;
     /* background-color: red; */
     transition: .8s;
+    overflow:hidden;
     padding: 0em 4.5em;
 
 }

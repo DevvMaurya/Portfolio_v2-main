@@ -5,7 +5,7 @@ project.addEventListener('click',()=>
     project.classList.add('animation_for_menu')
     project.addEventListener('animationend',()=>
     {
-        window.scrollTo(0,1000)
+        window.scrollTo(0,760)
         setTimeout(()=>{},2000);
         project.classList.remove('animation_for_menu')
     });
