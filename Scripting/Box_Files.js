@@ -4,11 +4,11 @@ function openFile(index)
     {
         case 0:
             // window.open("#")
-            location.assign('#')
+            location.assign('https://devvmaurya.github.io/MyProfile')
             break;
             
         case 1:
-            window.open("#")
+            window.open("https://github.com/DevvMaurya/EasyOCR")
             break;
             
         case 2:
@@ -32,7 +32,7 @@ function openFile(index)
             break;
             
         case 6:
-            window.open("#")
+            window.open("https://github.com/DevvMaurya/JokeBox")
             break;
             
         case 7:
