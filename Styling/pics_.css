@@ -75,42 +75,41 @@
     position: relative;
     background-color: blue;
     animation-name: slid;
-    animation-duration: 8s;
+    animation-duration: 15s;
     animation-delay: 0s;
-
 }
 .ig:nth-child(2)
 {
     position: relative;
     background-color: rgb(143, 143, 234);
     animation-name: slid;
-    animation-duration: 8s ;
-    animation-delay: 2s;
+    animation-duration: 15s ;
+    animation-delay: 3.8s;
 }
 .ig:nth-child(3)
 {
     position: relative;
     background-color: rgb(0, 255, 136);
     animation-name: slid;
-    animation-duration: 8s;
-    animation-delay: 4s;
+    animation-duration: 15s;
+    animation-delay: 7.6s;
 }
 .ig:nth-child(4)
 {
     position: relative;
     background-color: rgb(255, 179, 0);
     animation-name: slid;
-    animation-duration: 8s;
-    animation-delay: 6s;
+    animation-duration: 15s;
+    animation-delay: 11.4s;
 }
-.ig:nth-child(5)
+/* .ig:nth-child(5)
 {
     position: relative;
     background-color: rgb(255, 0, 174);
     animation-name: slid;
-    animation-duration: 8s;
-    animation-delay: 8s;
-}
+    animation-duration: 15s;
+    animation-delay: 17s;
+} */
 @keyframes slid {
     0%{
         position: absolute;
