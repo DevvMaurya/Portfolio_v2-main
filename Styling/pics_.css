@@ -1,0 +1,180 @@
+.display_pics
+{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    opacity: 0;
+
+}
+.pics_wrap{
+    margin: 50px 10px;
+    width: fit-content;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    /* opacity: 0.001; */
+    transition: 1s;
+    height: 300px;
+    width: 450px;
+}
+.ig
+{
+    height: 300px;
+    width: 450px;
+    box-shadow: rgb(35, 35, 35) 1px 5px 70px ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/* .ig:nth-child(1)
+{
+    position: relative;
+    background-color: blue;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+.ig:nth-child(2)
+{
+    position: relative;
+    background-color: rgb(143, 143, 234);
+    top: 0;
+    left: 15%;
+    transform: translate(-50%,0);
+    z-index: -1;
+}
+.ig:nth-child(3)
+{
+    position: relative;
+    background-color: rgb(0, 255, 136);
+    top: 0;
+    left: 25%;
+    transform: translate(-50%,0);
+    z-index: -2;
+}
+.ig:nth-child(4)
+{
+    position: relative;
+    background-color: rgb(255, 179, 0);
+    top: 0;
+    left: 15%;
+    transform: translate(-50%,0);
+    z-index: -3;
+}
+.ig:nth-child(5)
+{
+    position: relative;
+    background-color: rgb(255, 0, 174);
+    top: 0;
+    right: 55%;
+    transform: translate(-50%,0);
+    z-index: -3;
+} */
+
+.ig:nth-child(1)
+{
+    position: relative;
+    background-color: blue;
+    animation-name: slid;
+    animation-duration: 8s;
+    animation-delay: 0s;
+
+}
+.ig:nth-child(2)
+{
+    position: relative;
+    background-color: rgb(143, 143, 234);
+    animation-name: slid;
+    animation-duration: 8s ;
+    animation-delay: 2s;
+}
+.ig:nth-child(3)
+{
+    position: relative;
+    background-color: rgb(0, 255, 136);
+    animation-name: slid;
+    animation-duration: 8s;
+    animation-delay: 4s;
+}
+.ig:nth-child(4)
+{
+    position: relative;
+    background-color: rgb(255, 179, 0);
+    animation-name: slid;
+    animation-duration: 8s;
+    animation-delay: 6s;
+}
+.ig:nth-child(5)
+{
+    position: relative;
+    background-color: rgb(255, 0, 174);
+    animation-name: slid;
+    animation-duration: 8s;
+    animation-delay: 8s;
+}
+@keyframes slid {
+    0%{
+        position: absolute;
+        right: 0%;
+        opacity: .2;
+    }
+    10%
+    {
+        position: absolute;
+        right: 12%;
+        opacity: .4;
+    }
+    20%
+    {
+        position: absolute;
+        right: 24%;
+        opacity: .8;
+    }
+    30%
+    {
+        position: absolute;
+        right: 36%;
+        opacity: 1;
+    }
+    40%
+    {
+        position: absolute;
+        right: 48%;
+        opacity: 1;
+    }
+    50%
+    {
+        position: absolute;
+        right: 60%;
+        opacity: 1;
+    }
+    60%
+    {
+        position: absolute;
+        right: 72%;
+        opacity: .8;
+    }
+    70%
+    {
+        position: absolute;
+        right: 84%;
+        opacity: .6;
+    }
+    80%
+    {
+        position: absolute;
+        right: 96%;
+        opacity: .4;
+    }
+    90%
+    {
+        position: absolute;
+        right: 108%;
+        opacity: 0;
+    }
+    100%
+    {
+        position: absolute;
+        right: 0%;
+        opacity: 0;
+    }
+}

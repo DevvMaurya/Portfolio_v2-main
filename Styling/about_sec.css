@@ -1,5 +1,6 @@
 .about_s_rows
 {
+    font-family: 'Work Sans', sans-serif;
     display: flex;
     flex-direction: column;
 }
