@@ -56,7 +56,7 @@ setInterval(() => {
     }
 },4000);
 
- if(window.screen.availWidth < 1200)
-    {
-        alert('🔴 Website not ready for mobile screen.')
-    }
+//  if(window.screen.availWidth < 1200)
+//     {
+//         alert('🔴 Website not ready for mobile screen.')
+//     }

@@ -1,6 +1,7 @@
 const id =[1,2,3]
 let row_left = document.getElementById(`row_left${id[0]}`)
 let row_right = document.getElementById(`row_right${id[0]}`)
+
 document.addEventListener('scroll',()=>
 {
     if(window.scrollY >= 1450 && window.scrollY < 1590)
