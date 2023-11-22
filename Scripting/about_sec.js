@@ -20,10 +20,6 @@ document.addEventListener('scroll',()=>
         document.getElementById(`row_right${id[2]}`).classList.add(`row_scroll`)
     }
 
-    if(window.scrollY >= 1790)
-    {
-        document.getElementById('display_pics').style.opacity = 1;
-    }
 })
 document.addEventListener('scroll',()=>
 {
