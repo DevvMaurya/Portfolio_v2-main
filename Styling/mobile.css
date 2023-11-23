@@ -83,4 +83,10 @@
         border: 2px solid rgb(98, 95, 95);
         padding: 14px;
     }
+    .info
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
 }

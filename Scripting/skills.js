@@ -15,3 +15,37 @@ document.addEventListener('scroll',()=>
         document.getElementById(`skill3`).classList.remove('skill_ball')
     }
 })
+
+let info1 = document.querySelector('#skill1')
+let info2 = document.querySelector('#skill2')
+let info3 = document.querySelector('#skill3')
+let change = 
+info1.addEventListener('click',()=>
+{
+    document.querySelector('#info1').classList.add('infoclass');
+    setTimeout(()=>
+    {
+        document.querySelector('#info1').classList.remove('infoclass');
+
+    },23000)
+});
+
+info2.addEventListener('click',()=>
+{
+    document.querySelector('#info2').classList.add('infoclass');
+    setTimeout(()=>
+    {
+        document.querySelector('#info2').classList.remove('infoclass');
+
+    },23000)
+});
+
+info3.addEventListener('click',()=>
+{
+    document.querySelector('#info3').classList.add('infoclass');
+    setTimeout(()=>
+    {
+        document.querySelector('#info3').classList.remove('infoclass');
+
+    },23000)
+});
