@@ -1,12 +1,13 @@
 .skills_box
 {
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #e3edf7; */
     /* border: 2px solid purple; */
-    margin: 20px 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
     height: 50vh;
     z-index: -10;
 }
@@ -18,12 +19,13 @@
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    /* z-index: 1; */
-    box-shadow: 6px 6px 10px -1px rgb(0,0,0,.15),
-    -6px -6px 5px -1px rgba(255, 255, 255, 0.2);
+    box-shadow: 6px 6px 10px -1px rgb(0,0,0,.6),
+    -6px -6px 5px -1px rgba(255, 255, 255, 0.5);
     border: 8px solid rgb(4, 186, 252);
     top: 50%;
     opacity: 0;
+    /* z-index: 3; */
+    cursor: pointer;
     transition: 1.2s ease;
 }
 .skill_ball
@@ -55,7 +57,7 @@
 {
     position: relative;
     z-index: 3;
-    color: #000;
+    /* color: #000; */
     cursor: pointer;
     left: -8px;
     padding-left: 0px;
@@ -77,3 +79,16 @@
     }
 }
 
+.title{
+    position: absolute;
+    transform: translateY(-140px);
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 20px;   
+    text-align: center; 
+    /* width: max-content; */
+}
+.title h3
+{
+    
+    font-size: 30px;
+}

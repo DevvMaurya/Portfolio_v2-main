@@ -16,6 +16,10 @@
     /* background-image: url('imgs/logo.png');
     background-repeat: no-repeat;
     background-position: center center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 @keyframes bubble {
