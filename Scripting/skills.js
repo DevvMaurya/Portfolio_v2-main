@@ -22,7 +22,11 @@ let info3 = document.querySelector('#skill3')
 let change = 
 info1.addEventListener('click',()=>
 {
+    
     document.querySelector('#info1').classList.add('infoclass');
+    document.querySelector('#info2').classList.remove('infoclass');
+    document.querySelector('#info3').classList.remove('infoclass');
+
     setTimeout(()=>
     {
         document.querySelector('#info1').classList.remove('infoclass');
@@ -33,6 +37,10 @@ info1.addEventListener('click',()=>
 info2.addEventListener('click',()=>
 {
     document.querySelector('#info2').classList.add('infoclass');
+    document.querySelector('#info1').classList.remove('infoclass');
+    document.querySelector('#info3').classList.remove('infoclass');
+
+
     setTimeout(()=>
     {
         document.querySelector('#info2').classList.remove('infoclass');
@@ -43,6 +51,9 @@ info2.addEventListener('click',()=>
 info3.addEventListener('click',()=>
 {
     document.querySelector('#info3').classList.add('infoclass');
+    document.querySelector('#info2').classList.remove('infoclass');
+    document.querySelector('#info1').classList.remove('infoclass');
+
     setTimeout(()=>
     {
         document.querySelector('#info3').classList.remove('infoclass');
