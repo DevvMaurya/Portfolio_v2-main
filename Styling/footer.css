@@ -31,15 +31,16 @@ label,h3
     left: -150%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    padding-top: 25PX;
+    align-items: center;
     content: 'devvmaurya@gmail.com';
     height: 40px;
     width: 200px;
-    background-color:yellowgreen;
+    /* background-color:yellowgreen; */
+    background:linear-gradient( rgba(255, 247, 0, 0.581),greenyellow);
+    border-radius: 12px 12px;
     font-size: 18px;
-    -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
-clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    /* -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%); */
     cursor: pointer;
 }
 #github:hover::after
@@ -50,15 +51,16 @@ clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
     left: -150%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    padding-top: 25PX;
+    align-items: center;
     content: 'DevvMaurya';
     height: 40px;
     width: 200px;
-    background-color:yellowgreen;
+    /* background-color:yellowgreen; */
+    background:linear-gradient( rgba(255, 247, 0, 0.581),greenyellow);
+    border-radius: 12px 12px;
     font-size: 18px;
-    -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
-clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    /* -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%); */
     cursor: pointer;
 }
 #insta:hover::after
@@ -69,15 +71,15 @@ clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
     left: -150%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    padding-top: 25PX;
+    align-items: center;
     content: 'devv_Maurya';
     height: 40px;
     width: 200px;
-    background-color:yellowgreen;
+    background:linear-gradient( rgba(255, 247, 0, 0.581),greenyellow);
+    border-radius: 12px 12px;
     font-size: 18px;
-    -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
-    clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    /* -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%); */
     cursor: pointer;
 }
 #in:hover::after
@@ -88,15 +90,15 @@ clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
     left: -150%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    padding-top: 25PX;
+    align-items: center;
     content: 'Devv Maurya';
     height: 40px;
     width: 200px;
-    background-color:yellowgreen;
+    background:linear-gradient( rgba(255, 247, 0, 0.581),greenyellow);
+    border-radius: 12px 12px;
     font-size: 18px;
-    -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
-clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    /* -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%); */
     cursor: pointer;
 }
 #call:hover::after
@@ -107,15 +109,15 @@ clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
     left: -150%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    padding-top: 25PX;
+    align-items: center;
     content: '🇮🇳 +91 8200270283';
     height: 40px;
     width: 200px;
-    background-color:yellowgreen;
+    background:linear-gradient( rgba(255, 247, 0, 0.581),greenyellow);
+    border-radius: 12px 12px;
     font-size: 18px;
-    -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
-clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+    /* -clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%);
+clip-path: polygon(0 100%, 100% 100%, 100% 16%, 61% 15%, 49% 0, 36% 16%, 0 18%); */
     
     cursor: pointer;
 }

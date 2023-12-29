@@ -2,7 +2,7 @@ let skill_ball = document.querySelector('.skill')
 document.addEventListener('scroll',()=>
 {
 
-    if(window.scrollY > 2300)
+    if(window.scrollY > 2000)
     {
         document.getElementById(`skill1`).classList.add('skill_ball')
         document.getElementById(`skill2`).classList.add('skill_ball')

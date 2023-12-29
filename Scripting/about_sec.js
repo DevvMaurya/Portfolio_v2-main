@@ -4,7 +4,7 @@ let row_right = document.getElementById(`row_right${id[0]}`)
 
 document.addEventListener('scroll',()=>
 {
-    if(window.scrollY >= 1450 && window.scrollY < 1590)
+    if(window.scrollY >= 1300 && window.scrollY < 1590)
     {
         document.getElementById(`row_left${id[0]}`).classList.add(`row_scroll`)
         document.getElementById(`row_right${id[0]}`).classList.add(`row_scroll`)
@@ -23,7 +23,7 @@ document.addEventListener('scroll',()=>
 })
 document.addEventListener('scroll',()=>
 {
-    if(window.scrollY <= 1450)
+    if(window.scrollY <= 1300)
     {
         document.getElementById(`row_left${id[0]}`).classList.remove(`row_scroll`)
         document.getElementById(`row_right${id[0]}`).classList.remove(`row_scroll`)
