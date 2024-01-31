@@ -77,7 +77,7 @@ height: 8vh;
 }
 .two_box{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     /* background-color: blue; */
     height: 92vh;
 }
@@ -95,8 +95,13 @@ height: 8vh;
 .box_right
 {
     position: relative;
+    display: flex;
+    align-items: center;
     width: 50%;
     /* background-color: brown; */
+}
+.box_right img{
+    filter: drop-shadow(2px 2px 5px rgb(255, 255, 255));
 }
 .box_left .content
 {

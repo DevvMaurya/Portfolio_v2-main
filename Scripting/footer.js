@@ -29,3 +29,9 @@ call.addEventListener('click',()=>
     navigator.clipboard.writeText("+91 8200270283")
     alert('Mobile nummber Copied to clip board.!')
 })
+
+let X = document.getElementById('X')
+insta.addEventListener('click',()=>
+{
+    location.assign('https://twitter.com/DevvMaurya');
+})
