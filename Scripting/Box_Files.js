@@ -32,7 +32,7 @@ function openFile(index)
             break;
             
         case 7:
-            window.open("https://lost-found-kappa.verce;.app")
+            window.open("https://lost-found-kappa.vercel.app")
             break;
             
         // case 8:
