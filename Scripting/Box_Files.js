@@ -31,9 +31,9 @@ function openFile(index)
             window.open("https://github.com/DevvMaurya/JokeBox")
             break;
             
-        // case 7:
-        //     window.open("#")
-        //     break;
+        case 7:
+            window.open("https://lost-found-kappa.verce;.app")
+            break;
             
         // case 8:
         //     window.open("#")
