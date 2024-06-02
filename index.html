@@ -27,7 +27,7 @@
         <div class="menu" id="menu">
             <menu id="home">HOME</menu>
             <menu id="project">Project</menu>
-            <menu id="resume">Resume</menu>
+             <menu> <a href="https://drive.google.com/file/d/1EwYk0rCtmT25MVAEZvbXYAm5RmbOo3IX/view" style="text-decoration:none">Resume</a></menu>
             <menu id="about">About</menu>
             <menu id="skills">Skills</menu>
             <button id="mode_button">☀️</button>
@@ -50,6 +50,7 @@
     <!-- Second Section---------------------------------------------------------- -->
 <section class="second_sec">
     <div class="cards" id="cards">
+        <div class="card" id="1" onclick="openFile(7)">Lost&Found<img src="imgs/logo.jpg" alt=""></div>
         <div class="card" id="1" onclick="openFile(0)">Profile Web<img src="imgs/logo.png" alt=""></div>
         <div class="card" id="1" onclick="openFile(0)">🎶Suggestion<img src="imgs/Ds.png" alt=""></div>
         <div class="card" id="2" onclick="openFile(1)">Easy OCR<img src="imgs/python.png" alt=""></div>
@@ -194,12 +195,6 @@
 
 </footer>
 </body>
-<script>
-    window.onload = function() {
-        history.replaceState(null, null, document.referrer);
-        window.location.replace("https://dev-maurya.vercel.app"); // Replace with your desired URL
-    };
-</script>
 <script src="Scripting\bubble.js"></script>
 <script src="Scripting\Docs_mode.js"></script>
 <script src="Scripting\Box_Files.js"></script>
